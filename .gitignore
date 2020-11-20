@@ -1,0 +1,16 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/env
+
+# media
+/public
+
+# cache
+/__pycache__
+/app/__pycache__
+
+# models
+/app/models/20180402-114759-vggface2.pt
+/app/models/arousal_valence_v2_iter700.pth
+/app/models/googlenet_v3_iter9482.pth
